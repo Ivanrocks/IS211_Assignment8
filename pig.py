@@ -374,15 +374,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     acceptedValues = ["c", "computer", "h", "human"]
 
-    """numPlayers = 0
-    try:
-        if args.numPlayers:
-            numPlayers = int(args.numPlayers)
-
-    except ValueError:
-        print("Value provided not a number")
-        raise SystemExit
-        """
     player1 = args.player1.lower()
     player2 = args.player2.lower()
     isTimedGamed = False
