@@ -366,9 +366,9 @@ if __name__ == "__main__":
         """
     # Getting players info
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player1", help="URL to the datafile", type=str, required=True)
-    parser.add_argument("--player2", help="URL to the datafile", type=str, required=True)
-    parser.add_argument("--timed", help="URL to the datafile", type=str, required=False, default=False)
+    parser.add_argument("--player1", help="Specify player 1 type (human or computer)", type=str, required=True)
+    parser.add_argument("--player2", help="Specify player 2 type (human or computer)", type=str, required=True)
+    parser.add_argument("--timed", help="Play the timed version of the game True or False", type=str, required=False, default=False)
 
 
     args = parser.parse_args()
